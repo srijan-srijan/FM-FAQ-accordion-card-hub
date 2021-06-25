@@ -104,3 +104,18 @@ body {
   top: 42%;
   left: -25%;
 }
+
+.active > .answer {
+  display: block;
+  padding-bottom: 1.3rem;
+  color: var(--darkGrayBlue);
+}
+
+.active img {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in;
+}
+
+.active h3 {
+  font-weight: 700;
+}
